@@ -1,0 +1,70 @@
+/*
+    Created on : 07 24, 23, 10:22:10 AM
+    Author     : WINDOWS 10 (Modified by ChatGPT)
+*/
+
+.bg-form {
+    -fx-background-color: #1d0f2d; /* Dark background from image */
+}
+
+.header {
+    -fx-border-color: linear-gradient(to bottom right, #00c3ff, #6e00ff); /* Blue to purple */
+    -fx-border-width: 0 0 0 3px;
+    -fx-padding: 0 0 0 5px;
+    -fx-font-size: 20px;
+}
+
+.textfield {
+    -fx-background-color: transparent;
+    -fx-padding: 0 0 0 25px;
+    -fx-border-color: linear-gradient(to bottom right, #00c3ff, #6e00ff); /* Updated gradient */
+    -fx-border-width: .8px;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+.textfield:focused {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;      
+    -fx-background-radius: 10px;
+}
+
+.btn {
+    -fx-background-color: linear-gradient(to bottom right, #00c3ff, #6e00ff); /* Gradient theme */
+    -fx-font-family: Arial;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.btn:hover {
+    -fx-background-color: linear-gradient(to bottom right, #b100ff, #00e0ff);
+    -fx-text-fill: white;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 8, 0.3, 0, 4);
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+    -fx-cursor: hand;
+}
+
+
+
+.icon-user {
+    -fx-fill: #00c3ff; /* blue color */
+}
+
+.icon-lock {
+    -fx-fill: #00c3ff; 
+}
+
+.icon-envelope {
+    -fx-fill: #00c3ff; 
+}
+
+
